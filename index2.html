@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro Level</title>
+  </head>
+  <body>
+    <ul>
+      <!--unordered list bullet points-->
+      <li>Apple</li>
+      <ul>
+        <!--sub list-->
+        <li>color: red</li>
+        <li>season : summer</li>
+      </ul>
+      <li>Mangoo</li>
+      <ul>
+        <li>color: Yellow</li>
+        <li>season : summer</li>
+      </ul>
+      <li>Litchi</li>
+      <ul>
+        <li>color: red</li>
+        <li>season : summer</li>
+      </ul>
+    </ul>
+    <hr />
+    <!-- ordered list in form of numbers 1 2 3... -->
+    <ol>
+      <!--ordered list numbers-->
+      <li>Apple</li>
+      <ol>
+        <!--sub list-->
+        <li>color: red</li>
+        <li>season : summer</li>
+      </ol>
+      <li>Mangoo</li>
+      <ol>
+        <li>color: Yellow</li>
+        <li>season : summer</li>
+      </ol>
+      <li>Litchi</li>
+      <ol>
+        <li>color: red</li>
+        <li>season : summer</li>
+      </ol>
+    </ol>
+    <hr />
+    <!-- creating a table in html tags- tr td th -->
+    <table>
+      <thead>
+        <caption>
+          Student Data
+        </caption>
+        <tr>
+          <th colspan="2">
+            <!--merge the 2 column with same heading-->
+            INFORMATION
+          </th>
+          <!-- <th>
+                Roll No
+            </th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mayank</td>
+          <td>27</td>
+        </tr>
+
+        <tr>
+          <td>Piyush</td>
+          <td>15</td>
+        </tr>
+
+        <tr>
+          <td>Priyansh</td>
+          <td>23</td>
+        </tr>
+      </tbody>
+      <hr />
+
+      <!-- Forms in HTML -->
+      <h4>Registration Form</h4>
+      <form action="/actions.php">
+        <input type="text" placeholder="username" />
+        <br />
+        <br />
+        <input type="password" placeholder="password" />
+        <br />
+
+        <h5>Seclect your class</h5>
+        <br />
+        <label for="101">
+          <input type="radio" value="Class XI" name="class" id="101" />Class XI
+        </label>
+        <br />
+        <label for="102">
+          <input type="radio" value="Class XII" name="class" id="102" />Class
+          XII
+        </label>
+        <br /><br />
+
+        <h5>Select your Subjects</h5>
+        <label for="math">
+          <input type="checkbox" value="math" name="subject" id="101" />math
+        </label>
+        <br />
+        <label for="physics">
+          <input
+            type="checkbox"
+            value="computer"
+            name="subject"
+            id="102"
+          />computer
+        </label>
+        <br />
+        <label for="chemistry">
+          <input
+            type="checkbox"
+            value="chemistry"
+            name="subject"
+            id="103"
+          />chemistry
+        </label>
+        <br />
+        <label for="english">
+          <input
+            type="checkbox"
+            value="english"
+            name="subject"
+            id="104"
+          />english
+        </label>
+        <br /><br />
+        Select your City
+        <select name="city">
+          <!--drop down select state city-->
+          <option value="Delhi">Delhi</option>
+          <option value="Banglour">Banglour</option>
+          <option value="Gurugram">Gurugram</option>
+          <option value="Mumbai">Mumbai</option>
+        </select>
+        <br /><br />
+        <textarea
+          name="feedback"
+          id="101"
+          placeholder="please give your valuable feedback here"
+          rows="5"
+        ></textarea>
+        <br />
+        <input type="submit" value="submit" />
+      </form>
+      <br />
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+      <br />
+      <!-- video tag same as image tag to show videos -->
+      <video width="560" height="315" src="JCF.mp4" controls loop autoplay>
+        My video
+      </video>
+      <br />
+    </table>
+  </body>
+</html>
